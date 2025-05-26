@@ -1,0 +1,7 @@
+id: 'bb262015-57db-49b7-9bcc-08dd9c3f3d0a'
+name: 'C3-X-DB-DV'
+description: 'This is my e-learning Project with the Databricks DataVault and Mart generator to practice for the course C3-X-DB-DV'
+version: 'v1.5'
+configuration:
+  id: 'biGENIUS.Implementation.Generator.VaultAndMart.Spark.Databricks'
+  version: '1.9.5'
