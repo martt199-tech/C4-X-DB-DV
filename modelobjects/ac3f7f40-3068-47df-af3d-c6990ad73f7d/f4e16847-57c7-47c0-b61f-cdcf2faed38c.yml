@@ -1,6 +1,7 @@
 id: 'f4e16847-57c7-47c0-b61f-cdcf2faed38c'
-name: 'SALESORDERHEADER'
+name: 'ORDER'
 description: 'Generated Model Object from SALESORDERHEADER'
+isDeactivated: false
 modelObjectTypeId: 'ac3f7f40-3068-47df-af3d-c6990ad73f7d'
 terms:
   - id: '319665af-e7d5-4f3b-8b30-da1ed2733367'
