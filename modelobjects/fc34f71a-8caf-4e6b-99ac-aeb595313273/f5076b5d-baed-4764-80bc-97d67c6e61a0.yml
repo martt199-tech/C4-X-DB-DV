@@ -104,8 +104,10 @@ dataflows:
             sourceModelObjectId: '10825c9f-eff8-4773-b0ac-827044bc1dd4'
           - id: 'ae8e2753-9d20-4ce1-95d1-fc3901a9333e'
             alias: 's2'
+            joinExpression: 's1.CUSTOMERID = s2.CUSTOMERID'
             joinOperatorId: 'bbdc564b-c651-4108-a2ac-1bce74acd60b'
             sourceModelObjectId: 'aba25084-c963-42bf-a6fc-89c613226da0'
+            propertyValues: []
         termMappings:
           - termId: '5ba0fc9d-c912-415c-9de3-4887e265f545'
           - termId: 'ceb299b6-8e8a-4acd-a1d8-71349d494824'
