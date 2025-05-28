@@ -76,7 +76,8 @@ dataflows:
         termMappings:
           - termId: '8beaab44-f7ff-47b3-a5a7-2482d56abdc3'
           - termId: 'baf0b8a2-bdc1-45ec-ab53-deec6b5e9609'
-          - termId: 'b2dfb5ca-ae86-475f-8e33-1f9bc40d9e6a'
+          - expression: 'bc07da47-56ca-43f5-ba1b-2576f332f5cd.3d05716d-afd6-4640-a3be-9bccb6f9b119'
+            termId: 'b2dfb5ca-ae86-475f-8e33-1f9bc40d9e6a'
           - expression: 'bc07da47-56ca-43f5-ba1b-2576f332f5cd.35796e72-0cdc-4945-992f-adcdb4b872fe'
             termId: 'dea001b8-6953-4e9e-8e8d-b6a0141bc84f'
           - expression: 'bc07da47-56ca-43f5-ba1b-2576f332f5cd.3811b7de-f137-4a44-8e75-eff904e6d9f2'
