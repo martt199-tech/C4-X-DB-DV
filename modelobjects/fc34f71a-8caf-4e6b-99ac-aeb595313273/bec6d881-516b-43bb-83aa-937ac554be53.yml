@@ -1,5 +1,5 @@
 id: 'bec6d881-516b-43bb-83aa-937ac554be53'
-name: 'ORDER_DETAIL'
+name: 'ORDER_ORDERDETAIL'
 isDeactivated: false
 modelObjectTypeId: 'fc34f71a-8caf-4e6b-99ac-aeb595313273'
 terms:
@@ -139,4 +139,3 @@ relationships:
       - referenceTermId: '18d3e7da-b189-49de-a8b5-c991fea6ef79'
         termId: '3a53ea95-42cf-40e6-8259-73e4f241a426'
     propertyValues: []
-tags: []
