@@ -72,7 +72,10 @@ dataflows:
       - id: '71dc35f7-1206-46ba-ac3f-77e103ac667a'
         name: 'setCRM'
         setOperatorId: '12bf835d-5821-4113-ac0f-942e66c64dbb'
-        dataflowModelObjects: []
+        dataflowModelObjects:
+          - id: '6238d826-5cad-4d3b-b57f-67c3ae4587c8'
+            alias: 's1'
+            sourceModelObjectId: 'db4ccba6-1ae5-4e81-a51c-c63a845fc841'
         termMappings:
           - termId: '4f8d5275-544e-4dc0-a2e6-0c2490503943'
           - termId: '317e1a34-a332-42a6-9e89-4443d3387f4b'
