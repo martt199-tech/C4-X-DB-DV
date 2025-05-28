@@ -72,27 +72,10 @@ dataflows:
       - id: '71dc35f7-1206-46ba-ac3f-77e103ac667a'
         name: 'setCRM'
         setOperatorId: '12bf835d-5821-4113-ac0f-942e66c64dbb'
+        dataflowModelObjects: []
         termMappings:
           - termId: '4f8d5275-544e-4dc0-a2e6-0c2490503943'
           - termId: '317e1a34-a332-42a6-9e89-4443d3387f4b'
           - termId: '5bf2feb3-920d-4006-bdde-d84f5f9f9720'
           - termId: 'f2ae6fe0-e955-45da-b5d5-3c3f5d4d551d'
         propertyValues: []
-  - id: 'e65af8c1-1fce-4a5d-be45-c565b42ce19b'
-    name: 'SetCRM'
-    description: ''
-    alias: ''
-    dataflowSets:
-      - id: '75d12269-23e9-449e-8b5f-09fed38ee008'
-        name: 'setCRM'
-        dataflowModelObjects:
-          - id: '376ec754-4fc4-476c-bbc3-60557af0f2fc'
-            alias: 's1'
-            sourceModelObjectId: 'db4ccba6-1ae5-4e81-a51c-c63a845fc841'
-        termMappings:
-          - termId: '4f8d5275-544e-4dc0-a2e6-0c2490503943'
-          - termId: '317e1a34-a332-42a6-9e89-4443d3387f4b'
-          - termId: '5bf2feb3-920d-4006-bdde-d84f5f9f9720'
-          - termId: 'f2ae6fe0-e955-45da-b5d5-3c3f5d4d551d'
-        propertyValues: []
-    propertyValues: []
