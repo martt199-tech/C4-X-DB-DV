@@ -67,6 +67,31 @@ terms:
     isNullable: false
     dataType:
       platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: 'd5e0ff7e-77cc-4d19-a1c1-b6efde34e9c8'
+    name: 'FK_CUSTOMER_accountnumber'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: true
+    isBusinessKeyForeignKey: true
+    isForeignKey: true
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: 'e47f6fa2-e62b-43e6-81fb-e110b897ab85'
+    name: 'CUSTOMER_CUSTOMER_HK'
+    description: 'Identifier of the referenced Hub record'
+    defaultTermId: '3e06f270-8fdf-4e8e-80f6-3583cf8bf51c'
+    hiddenInSource: false
+    hiddenInTarget: true
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: true
+    isIdentity: false
+    isIdentityForeignKey: true
+    isNullable: false
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
 dataflows:
   - id: '9ced0960-fd72-49a1-8f6f-50db52f88eff'
     name: 'Dataflow1'
@@ -79,6 +104,8 @@ dataflows:
           - termId: '33cd151f-6a3a-4a2e-846d-5133ad0e3b61'
           - termId: '5c8751d9-b10c-41ee-a52e-dc363ec4380f'
           - termId: 'cbc0e6cc-c228-4476-8ad4-6ca5e6eec4ca'
+          - termId: 'd5e0ff7e-77cc-4d19-a1c1-b6efde34e9c8'
+          - termId: 'e47f6fa2-e62b-43e6-81fb-e110b897ab85'
 relationships:
   - id: '1637f9cf-ee3d-43ea-a59a-b7cf73f36bb7'
     referencedModelObjectId: 'f4e16847-57c7-47c0-b61f-cdcf2faed38c'
@@ -88,5 +115,14 @@ relationships:
     relationshipTerms:
       - referenceTermId: '7945e6a6-9df4-40af-b848-b299d84413bf'
         termId: '5c8751d9-b10c-41ee-a52e-dc363ec4380f'
+    propertyValues: []
+  - id: '1086f27b-a917-4ee8-a95e-a8e5fd4e3179'
+    referencedModelObjectId: '6c38a4d2-3a65-4741-b0e8-8297ecef1a33'
+    role: 'CUSTOMER'
+    additionalTermIds:
+      - 'e47f6fa2-e62b-43e6-81fb-e110b897ab85'
+    relationshipTerms:
+      - referenceTermId: 'f2ae6fe0-e955-45da-b5d5-3c3f5d4d551d'
+        termId: 'd5e0ff7e-77cc-4d19-a1c1-b6efde34e9c8'
     propertyValues: []
 tags: []
