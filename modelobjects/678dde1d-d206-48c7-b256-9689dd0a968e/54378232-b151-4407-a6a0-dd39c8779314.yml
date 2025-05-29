@@ -1,0 +1,12 @@
+id: '54378232-b151-4407-a6a0-dd39c8779314'
+name: 'prueba'
+isDeactivated: false
+modelObjectTypeId: '678dde1d-d206-48c7-b256-9689dd0a968e'
+terms: []
+dataflows:
+  - id: 'f76b88b0-92c1-4f71-b412-d0bc5653fa1e'
+    name: 'Dataflow1'
+    dataflowSets:
+      - id: '6aea4fe9-f2f6-42dc-8d41-91455bcdcb0b'
+        name: 'Set1'
+tags: []
