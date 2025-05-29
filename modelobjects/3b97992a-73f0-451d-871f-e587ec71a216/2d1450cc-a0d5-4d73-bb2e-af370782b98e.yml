@@ -155,6 +155,16 @@ terms:
     isNullable: true
     dataType:
       platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '0c3749c6-22c9-4977-b4ec-6abf138dafaf'
+    name: 'tocurrencycode'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
 dataflows:
   - id: 'ecbbb275-43c5-4967-ac23-a92d6a2f5156'
     name: 'Dataflow1'
@@ -180,4 +190,6 @@ dataflows:
             termId: 'e258e73b-3c73-4fab-a33d-2dd5e230f28d'
           - expression: 'b1611ab6-c309-4849-8876-940022f35dde.015f728f-56a1-4d91-b29b-db7f28a8e1ed'
             termId: 'a0b51e02-1aba-46a9-b96f-f83bc20e59a3'
+          - expression: 'b1611ab6-c309-4849-8876-940022f35dde.362a126d-b635-4152-821d-7270c6c6eb94'
+            termId: '0c3749c6-22c9-4977-b4ec-6abf138dafaf'
 tags: []
