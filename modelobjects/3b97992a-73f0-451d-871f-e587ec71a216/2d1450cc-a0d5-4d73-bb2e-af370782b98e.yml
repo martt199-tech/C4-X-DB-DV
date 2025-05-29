@@ -133,6 +133,18 @@ terms:
     isNullable: true
     dataType:
       platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+  - id: 'e258e73b-3c73-4fab-a33d-2dd5e230f28d'
+    name: 'totaldue'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 19
+      scale: 4
 dataflows:
   - id: 'ecbbb275-43c5-4967-ac23-a92d6a2f5156'
     name: 'Dataflow1'
@@ -154,4 +166,6 @@ dataflows:
           - termId: '3d86db98-f978-4c0c-a194-03f1edee8eff'
           - termId: '4a573e72-e892-4485-ac52-9eeada7debfb'
           - termId: 'ee4e8562-1488-42ea-9004-087add25dcdc'
+          - expression: 'b1611ab6-c309-4849-8876-940022f35dde.f967d857-8961-4505-86f7-2d2cfef53f1c'
+            termId: 'e258e73b-3c73-4fab-a33d-2dd5e230f28d'
 tags: []
