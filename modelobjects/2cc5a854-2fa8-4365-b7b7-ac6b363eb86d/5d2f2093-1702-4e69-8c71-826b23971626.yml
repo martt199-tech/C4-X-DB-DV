@@ -353,8 +353,10 @@ dataflows:
             sourceModelObjectId: 'aba25084-c963-42bf-a6fc-89c613226da0'
           - id: '5b523a8a-5aac-4814-a0fe-19a2b04f9984'
             alias: 's2'
-            joinOperatorId: 'bbdc564b-c651-4108-a2ac-1bce74acd60b'
+            joinExpression: 's1.CURRENCYRATEID = s2.CURRENCYRATEI'
+            joinOperatorId: 'ccd0c803-6c68-405c-9ede-c8ca4883f3ba'
             sourceModelObjectId: 'b88139e6-5203-48ee-b03b-889e0cdca63a'
+            propertyValues: []
         termMappings:
           - termId: 'a4295410-8ec5-4d5d-9a59-20de946cd522'
           - termId: '7e3b86f1-e376-48ec-babb-5b5ed6e86e16'
