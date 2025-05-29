@@ -36,3 +36,10 @@ views:
     default: true
     type: 'data-model'
     modelObjects: []
+  - id: '9e6bc604-310c-4520-a52d-b545308f68c0'
+    name: 'ORDER'
+    description: ''
+    default: false
+    type: 'data-pipe'
+    modelObjects:
+      - id: '2a92eb18-4bae-46c9-857e-9f3bb5c5f269'
