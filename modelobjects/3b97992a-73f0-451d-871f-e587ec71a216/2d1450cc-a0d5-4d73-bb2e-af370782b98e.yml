@@ -217,7 +217,8 @@ dataflows:
             termId: '0c3749c6-22c9-4977-b4ec-6abf138dafaf'
           - expression: 'b1611ab6-c309-4849-8876-940022f35dde.607483e0-2700-42c0-8457-4caabcf2335b'
             termId: '45de8c54-2a47-4a46-9456-21c44f0f25ae'
-          - termId: '40dd4dfb-313d-41d1-b57f-201f5ac0eed2'
+          - expression: 'b1611ab6-c309-4849-8876-940022f35dde.956d8dd2-1ad1-4d6f-9590-dd98c5d68489'
+            termId: '40dd4dfb-313d-41d1-b57f-201f5ac0eed2'
 relationships:
   - id: '68ce47a2-29c8-4563-a368-3d7e41a6f9c2'
     referencedModelObjectId: 'f4e16847-57c7-47c0-b61f-cdcf2faed38c'
