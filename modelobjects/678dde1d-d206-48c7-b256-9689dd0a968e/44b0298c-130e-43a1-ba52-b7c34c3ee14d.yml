@@ -1,0 +1,12 @@
+id: '44b0298c-130e-43a1-ba52-b7c34c3ee14d'
+name: 'CUSTOMER'
+isDeactivated: false
+modelObjectTypeId: '678dde1d-d206-48c7-b256-9689dd0a968e'
+terms: []
+dataflows:
+  - id: '53275468-75b4-4438-b56a-08f0fd963520'
+    name: 'Dataflow1'
+    dataflowSets:
+      - id: 'b70e6e04-6f0e-4433-bb02-33b3994ee654'
+        name: 'Set1'
+tags: []
