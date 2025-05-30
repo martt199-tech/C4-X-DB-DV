@@ -97,6 +97,16 @@ terms:
     isNullable: true
     dataType:
       platformDataTypeId: '214f4959-56df-4f38-b8c2-703c0890e8ae'
+  - id: '83667e75-daab-499a-a524-d519517a109c'
+    name: 'dt'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
 dataflows:
   - id: '53c4cc19-d7fb-4166-a452-1796de258d1a'
     name: 'Dataflow1'
@@ -131,4 +141,6 @@ dataflows:
             termId: '12cf62e8-5bc1-432f-acbe-756b31a28903'
           - expression: '9e2a56a8-84c9-43e5-8031-95dc050a7a27.cb9fae21-a95e-48f8-951a-8006ebbe7107'
             termId: '4373e1ea-6bcb-4035-a821-ce4ae99e0f76'
+          - expression: '9e2a56a8-84c9-43e5-8031-95dc050a7a27.17ca0736-324d-421f-a4a7-74608c45a554'
+            termId: '83667e75-daab-499a-a524-d519517a109c'
 tags: []
