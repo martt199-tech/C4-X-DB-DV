@@ -105,16 +105,6 @@ terms:
     isNullable: true
     dataType:
       platformDataTypeId: 'c6f208b6-6dc4-4977-bed0-a7775c9ff888'
-  - id: '2269a8d8-2fbb-4774-9485-6c29b7df541f'
-    name: 'storeid1'
-    hiddenInSource: false
-    hiddenInTarget: false
-    isBusinessKey: false
-    isForeignKey: false
-    isIdentity: false
-    isNullable: true
-    dataType:
-      platformDataTypeId: 'c6f208b6-6dc4-4977-bed0-a7775c9ff888'
   - id: '6f2f2fb4-5e56-43e5-bba2-443488173680'
     name: 'territoryid'
     hiddenInSource: false
@@ -187,7 +177,6 @@ dataflows:
           - termId: 'd7c88785-c6df-45f3-a2bf-313008bbe5e7'
           - expression: '8677e4e8-ca5f-4307-96c6-be492bfb9fdc.4f888866-7168-43bb-a9da-dce2f573653d'
             termId: '13d203a3-9141-43c6-b396-1d6602f83469'
-          - termId: '2269a8d8-2fbb-4774-9485-6c29b7df541f'
           - expression: '8677e4e8-ca5f-4307-96c6-be492bfb9fdc.27d1bb4b-9c93-4781-abe0-fdacb5928417'
             termId: '6f2f2fb4-5e56-43e5-bba2-443488173680'
           - expression: '8677e4e8-ca5f-4307-96c6-be492bfb9fdc.33e2a645-6e88-4082-bd18-54946cdc38ef'
