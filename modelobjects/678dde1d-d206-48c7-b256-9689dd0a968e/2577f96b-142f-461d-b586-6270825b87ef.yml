@@ -1,0 +1,12 @@
+id: '2577f96b-142f-461d-b586-6270825b87ef'
+name: 'CREDITCARD'
+isDeactivated: false
+modelObjectTypeId: '678dde1d-d206-48c7-b256-9689dd0a968e'
+terms: []
+dataflows:
+  - id: '53c4cc19-d7fb-4166-a452-1796de258d1a'
+    name: 'Dataflow1'
+    dataflowSets:
+      - id: '376e607b-7fce-4f34-aa58-babc909d50e4'
+        name: 'Set1'
+tags: []
