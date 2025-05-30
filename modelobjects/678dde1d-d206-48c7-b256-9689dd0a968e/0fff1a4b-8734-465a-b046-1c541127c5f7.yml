@@ -54,6 +54,5 @@ dataflows:
           - expression: '37ab7349-ff3f-441b-a4e5-e1ed5023d96e.317e1a34-a332-42a6-9e89-4443d3387f4b'
             termId: '2c1a92ac-74ca-449f-aa89-aa5d955dd834'
           - termId: '51128d31-87a7-4251-8177-ca2e74e8f7f6'
-          - expression: 'c3bb9a82-1d26-4253-b8cd-29b695172844.7ee1dced-dbb4-4de9-90a1-256342d59a5f'
-            termId: '9c128cca-9ff0-42e4-b447-71b8f049d1d3'
+          - termId: '9c128cca-9ff0-42e4-b447-71b8f049d1d3'
 tags: []
