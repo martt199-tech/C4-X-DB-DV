@@ -134,17 +134,6 @@ terms:
     isNullable: true
     dataType:
       platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
-  - id: '3be18359-4395-4a00-ab7e-5d3e7db23261'
-    name: 'FK_CREDITCARD_SUPERIORCARD_creditcardid'
-    hiddenInSource: true
-    hiddenInTarget: false
-    isBusinessKey: false
-    isBusinessKeyForeignKey: true
-    isForeignKey: true
-    isIdentity: false
-    isNullable: false
-    dataType:
-      platformDataTypeId: 'c6f208b6-6dc4-4977-bed0-a7775c9ff888'
   - id: 'd8431de3-3454-45ef-a345-003270e88124'
     name: 'BG_SourceFilePath'
     description: 'Default term, which stores the name of theinput file'
@@ -263,8 +252,6 @@ dataflows:
           - termId: '482b49ea-a6f0-47da-a98f-9365902fccad'
           - termId: 'f52c6a45-fd0c-48b1-b172-d26697583dec'
           - termId: '10e70b75-fa97-4cea-9d0a-ceaa77692e17'
-          - expression: '9d6da4d2-8645-42b7-be95-cf8876ce1241.e283c68a-eaed-4ecd-86bf-faa7d51bf48f'
-            termId: '3be18359-4395-4a00-ab7e-5d3e7db23261'
           - termId: 'd8431de3-3454-45ef-a345-003270e88124'
           - termId: '9da411c9-ce04-4203-8b57-f9332ea3a8f7'
           - termId: 'a35d6ec9-a4ab-4439-b59a-65f981ef98be'
@@ -275,12 +262,4 @@ dataflows:
           - termId: '636ba437-4bb3-4780-ac44-410c234a9ef1'
           - termId: '26e45a4d-3a02-4e99-963c-e26c63a47a93'
         propertyValues: []
-relationships:
-  - id: '4013b406-550c-401c-8dd6-11f7b125abbe'
-    referencedModelObjectId: '978c4195-9c78-423e-b594-b71fcf08ee58'
-    role: 'CREDITCARD_SUPERIORCARD'
-    additionalTermIds: []
-    relationshipTerms:
-      - referenceTermId: 'bdec6a96-45e8-46b0-8fad-8ec5aeb1f7d1'
-        termId: '3be18359-4395-4a00-ab7e-5d3e7db23261'
-    propertyValues: []
+relationships: []
