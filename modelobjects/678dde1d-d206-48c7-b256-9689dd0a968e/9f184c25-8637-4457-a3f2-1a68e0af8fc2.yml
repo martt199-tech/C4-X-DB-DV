@@ -37,6 +37,5 @@ dataflows:
             sourceModelObjectId: '94108f71-9533-4643-abb1-d8bb63f03f40'
         termMappings:
           - termId: '4500b028-0dda-4969-adfe-58194350ca01'
-          - expression: '4c5550f9-1c7b-4ff4-977f-8ab485ec4ced.21d75f51-4740-4a0a-b880-9b1bb3b70b01'
-            termId: '9fb0cea7-08cc-40be-afac-e880efb72715'
+          - termId: '9fb0cea7-08cc-40be-afac-e880efb72715'
 tags: []
