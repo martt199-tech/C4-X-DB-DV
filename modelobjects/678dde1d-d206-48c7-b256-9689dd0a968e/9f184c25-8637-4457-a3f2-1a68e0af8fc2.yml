@@ -88,6 +88,16 @@ terms:
     isNullable: true
     dataType:
       platformDataTypeId: 'c6f208b6-6dc4-4977-bed0-a7775c9ff888'
+  - id: '6aa76734-4ee8-4f60-a8b1-99f34d0f51cd'
+    name: 'specialofferid'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'c6f208b6-6dc4-4977-bed0-a7775c9ff888'
 dataflows:
   - id: 'bb46cede-3ab2-4841-b2dd-82a5ce87c0f6'
     name: 'Dataflow1'
@@ -122,4 +132,6 @@ dataflows:
             termId: 'b8bd2fc9-13d1-4065-8dc0-3edcc826a225'
           - expression: '5cf6c353-0719-4dce-b8d5-57b9a114c4f1.7e66a470-3ca0-4244-b572-3854fed85042'
             termId: '317943ed-c7b9-45ad-b0fe-d81490745ff6'
+          - expression: '5cf6c353-0719-4dce-b8d5-57b9a114c4f1.65fcb92f-ea08-469e-bd7e-7a6a0e41a06e'
+            termId: '6aa76734-4ee8-4f60-a8b1-99f34d0f51cd'
 tags: []
