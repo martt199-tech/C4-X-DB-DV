@@ -107,8 +107,7 @@ dataflows:
             sourceModelObjectId: 'b9007ef5-9a45-448a-9223-03e51a9c3d7c'
         termMappings:
           - termId: 'a7861640-e75b-4f0d-a7e3-8ec76da70eae'
-          - expression: '9e2a56a8-84c9-43e5-8031-95dc050a7a27.5ac90161-78ca-46e1-b043-3bfbee5c7f12'
-            termId: '7987cbdb-1d90-4a4f-8773-c08b4062ef5a'
+          - termId: '7987cbdb-1d90-4a4f-8773-c08b4062ef5a'
           - termId: '5bd0e714-966b-47a0-9695-8691d4cded35'
           - expression: '9e2a56a8-84c9-43e5-8031-95dc050a7a27.6428287d-30de-4d83-bee5-9c2d39cdd675'
             termId: 'a27d52af-bbad-48fb-8d3a-eb43c1c96c4e'
