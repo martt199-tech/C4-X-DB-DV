@@ -2,18 +2,7 @@ id: 'e1a2b541-7953-4629-a0bb-f3748973b79a'
 name: 'ORDER'
 isDeactivated: false
 modelObjectTypeId: '678dde1d-d206-48c7-b256-9689dd0a968e'
-terms:
-  - id: '94c7308a-e25e-4e84-9afb-ae9cd5ca1a40'
-    name: 'BG_ValidFromTimestamp'
-    description: 'Default term for the technical validity or objects'
-    hiddenInSource: false
-    hiddenInTarget: false
-    isBusinessKey: false
-    isForeignKey: false
-    isIdentity: false
-    isNullable: false
-    dataType:
-      platformDataTypeId: '214f4959-56df-4f38-b8c2-703c0890e8ae'
+terms: []
 dataflows:
   - id: 'b62f2da1-cd2c-4c0a-9270-77e916c2e776'
     name: 'Dataflow1'
@@ -32,6 +21,5 @@ dataflows:
             alias: 's1'
             joinOperatorId: 'bbdc564b-c651-4108-a2ac-1bce74acd60b'
             sourceModelObjectId: '2d1450cc-a0d5-4d73-bb2e-af370782b98e'
-        termMappings:
-          - termId: '94c7308a-e25e-4e84-9afb-ae9cd5ca1a40'
+        termMappings: []
 tags: []
