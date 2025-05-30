@@ -172,6 +172,17 @@ terms:
     isNullable: false
     dataType:
       platformDataTypeId: 'c6f208b6-6dc4-4977-bed0-a7775c9ff888'
+  - id: 'b22577c1-d69b-4c8c-b547-144abb5326ca'
+    name: 'BG_ValidFromTimestamp1'
+    description: 'Default term for the technical validity or objects'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: '214f4959-56df-4f38-b8c2-703c0890e8ae'
 dataflows:
   - id: '4554822f-6096-412c-8a9d-a63b3e9a8ced'
     name: 'Dataflow1'
@@ -211,3 +222,5 @@ dataflows:
             termId: '16ea5f94-98dd-4783-b7ff-fb738219c460'
           - expression: 'ed77baa7-eff6-4dac-b3b3-62082839cefb.bdec6a96-45e8-46b0-8fad-8ec5aeb1f7d1'
             termId: '1d93550a-bbc0-4982-b5f9-68d32515e4c9'
+          - expression: '39c73a2a-a5ea-4171-bd66-0a5aec1e3081.0e4b2051-8ace-4c01-a890-ccd9b45715db'
+            termId: 'b22577c1-d69b-4c8c-b547-144abb5326ca'
