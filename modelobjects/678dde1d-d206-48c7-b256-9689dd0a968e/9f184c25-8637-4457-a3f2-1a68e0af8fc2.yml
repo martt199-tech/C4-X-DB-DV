@@ -2,7 +2,18 @@ id: '9f184c25-8637-4457-a3f2-1a68e0af8fc2'
 name: 'ORDERDETAIL'
 isDeactivated: false
 modelObjectTypeId: '678dde1d-d206-48c7-b256-9689dd0a968e'
-terms: []
+terms:
+  - id: '89407bc0-1dfc-4803-b9ec-fb763170ad05'
+    name: 'Hub_HK'
+    description: 'Identifier of a record'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
 dataflows:
   - id: 'bb46cede-3ab2-4841-b2dd-82a5ce87c0f6'
     name: 'Dataflow1'
@@ -21,5 +32,7 @@ dataflows:
             alias: 's3'
             joinOperatorId: 'bbdc564b-c651-4108-a2ac-1bce74acd60b'
             sourceModelObjectId: '94108f71-9533-4643-abb1-d8bb63f03f40'
-        termMappings: []
+        termMappings:
+          - expression: '995f7299-0a6f-4290-988d-9ef1981127bd.baf0b8a2-bdc1-45ec-ab53-deec6b5e9609'
+            termId: '89407bc0-1dfc-4803-b9ec-fb763170ad05'
 tags: []
