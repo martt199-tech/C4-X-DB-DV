@@ -32,12 +32,8 @@ dataflows:
       - id: '243a609f-1376-4bc5-a8f6-b52aa41ccc36'
         name: 'Set1'
         dataflowModelObjects:
-          - id: '02e82cac-ff9e-408e-97ff-326beed11838'
-            alias: 's1'
-            sourceModelObjectId: '6d50a772-f0ef-4b17-9fd9-f77c5b8422a9'
           - id: '15a31205-cb90-4759-b209-b3d38a31219d'
             alias: 's2'
-            joinOperatorId: 'bbdc564b-c651-4108-a2ac-1bce74acd60b'
             sourceModelObjectId: '0a4a33af-3b0f-446f-9575-88212b10aec7'
           - id: '37ab7349-ff3f-441b-a4e5-e1ed5023d96e'
             alias: 's3'
