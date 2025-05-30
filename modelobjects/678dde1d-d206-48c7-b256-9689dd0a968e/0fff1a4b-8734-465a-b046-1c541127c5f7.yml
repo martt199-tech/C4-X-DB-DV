@@ -2,7 +2,18 @@ id: '0fff1a4b-8734-465a-b046-1c541127c5f7'
 name: 'CUSTOMER'
 isDeactivated: false
 modelObjectTypeId: '678dde1d-d206-48c7-b256-9689dd0a968e'
-terms: []
+terms:
+  - id: 'de8e56df-eba4-4c93-aff8-b03a0d3a9463'
+    name: 'BG_SourceSystem'
+    description: 'Default term with an identifier of the source system'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
 dataflows:
   - id: 'd81edf44-9af7-4b94-82c7-604f1193ee69'
     name: 'Dataflow1'
@@ -17,4 +28,7 @@ dataflows:
             alias: 's2'
             joinOperatorId: 'bbdc564b-c651-4108-a2ac-1bce74acd60b'
             sourceModelObjectId: '0a4a33af-3b0f-446f-9575-88212b10aec7'
+        termMappings:
+          - expression: '02e82cac-ff9e-408e-97ff-326beed11838.c0d6a402-c82d-4e26-9a87-885fbd5d3c66'
+            termId: 'de8e56df-eba4-4c93-aff8-b03a0d3a9463'
 tags: []
