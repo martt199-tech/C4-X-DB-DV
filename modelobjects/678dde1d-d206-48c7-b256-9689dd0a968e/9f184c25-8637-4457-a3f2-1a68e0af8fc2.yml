@@ -68,6 +68,16 @@ terms:
     isNullable: true
     dataType:
       platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: 'b8bd2fc9-13d1-4065-8dc0-3edcc826a225'
+    name: 'orderqty'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'c6f208b6-6dc4-4977-bed0-a7775c9ff888'
 dataflows:
   - id: 'bb46cede-3ab2-4841-b2dd-82a5ce87c0f6'
     name: 'Dataflow1'
@@ -98,4 +108,6 @@ dataflows:
           - termId: '1c9f4a7a-636d-4f12-8188-c04614761332'
           - expression: '5cf6c353-0719-4dce-b8d5-57b9a114c4f1.16df7d57-2f96-4218-8444-5db8f6a0d712'
             termId: '478dae43-18c4-4e1f-b4dc-af4587a2a5d6'
+          - expression: '5cf6c353-0719-4dce-b8d5-57b9a114c4f1.29152de7-95f8-41e7-9480-488bda2b0c8c'
+            termId: 'b8bd2fc9-13d1-4065-8dc0-3edcc826a225'
 tags: []
