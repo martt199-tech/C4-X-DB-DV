@@ -122,6 +122,18 @@ terms:
       platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
       precision: 19
       scale: 4
+  - id: 'b3022129-fc5e-4cf9-8704-3b544a6ce2a8'
+    name: 'linetotal'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 38
+      scale: 6
 dataflows:
   - id: 'bb46cede-3ab2-4841-b2dd-82a5ce87c0f6'
     name: 'Dataflow1'
@@ -162,4 +174,6 @@ dataflows:
             termId: '8f963902-9a17-4d63-a45a-3023468125a8'
           - expression: '5cf6c353-0719-4dce-b8d5-57b9a114c4f1.056aa3a3-1b5c-4e7d-82a6-e6e5f7baedb8'
             termId: '523d7db6-b6d6-4194-831a-c8874dec07ca'
+          - expression: '5cf6c353-0719-4dce-b8d5-57b9a114c4f1.e33bc631-ac20-4b46-926d-c363b4309cfe'
+            termId: 'b3022129-fc5e-4cf9-8704-3b544a6ce2a8'
 tags: []
