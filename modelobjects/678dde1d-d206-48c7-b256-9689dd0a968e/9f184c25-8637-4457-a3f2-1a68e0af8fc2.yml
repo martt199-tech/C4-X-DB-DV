@@ -9,9 +9,6 @@ dataflows:
     dataflowSets:
       - id: '1c3684fe-004a-4297-ba03-375dfb421f42'
         name: 'Set1'
-        dataflowModelObjects:
-          - id: '4c5550f9-1c7b-4ff4-977f-8ab485ec4ced'
-            alias: 's1'
-            sourceModelObjectId: '94108f71-9533-4643-abb1-d8bb63f03f40'
+        dataflowModelObjects: []
         termMappings: []
 tags: []
