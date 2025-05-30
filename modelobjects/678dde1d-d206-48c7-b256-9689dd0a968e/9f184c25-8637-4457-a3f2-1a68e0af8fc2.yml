@@ -110,6 +110,18 @@ terms:
       platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
       precision: 19
       scale: 4
+  - id: '523d7db6-b6d6-4194-831a-c8874dec07ca'
+    name: 'unitpricediscount'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 19
+      scale: 4
 dataflows:
   - id: 'bb46cede-3ab2-4841-b2dd-82a5ce87c0f6'
     name: 'Dataflow1'
@@ -148,4 +160,6 @@ dataflows:
             termId: '6aa76734-4ee8-4f60-a8b1-99f34d0f51cd'
           - expression: '5cf6c353-0719-4dce-b8d5-57b9a114c4f1.14c87868-388c-4c11-8e32-31ec2ffe372c'
             termId: '8f963902-9a17-4d63-a45a-3023468125a8'
+          - expression: '5cf6c353-0719-4dce-b8d5-57b9a114c4f1.056aa3a3-1b5c-4e7d-82a6-e6e5f7baedb8'
+            termId: '523d7db6-b6d6-4194-831a-c8874dec07ca'
 tags: []
