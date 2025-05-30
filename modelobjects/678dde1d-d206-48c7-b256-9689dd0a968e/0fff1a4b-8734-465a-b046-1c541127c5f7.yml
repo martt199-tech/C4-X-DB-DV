@@ -84,8 +84,7 @@ dataflows:
             termId: 'f1d1980e-0dbe-49a5-97b1-b1d948e09c7c'
           - expression: '873caa35-2f29-4240-9878-57a796721996.d81b441c-df66-49bf-b6ed-4167cdf39b36'
             termId: '19f3daf9-298c-4b9f-a031-f6254fff80bd'
-          - expression: '873caa35-2f29-4240-9878-57a796721996.f1807e15-7769-4a3e-b89e-85d7dde46050'
-            termId: '6570fabc-3dd7-4a2e-a2e9-fe37ce301c97'
+          - termId: '6570fabc-3dd7-4a2e-a2e9-fe37ce301c97'
           - expression: '873caa35-2f29-4240-9878-57a796721996.c3a62e26-994f-4fe9-b829-bfdfb8dc07ef'
             termId: '91d2a7b4-22ec-4ecf-a9b4-0e5c8d67e57a'
 tags: []
