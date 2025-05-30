@@ -36,6 +36,17 @@ terms:
     isNullable: false
     dataType:
       platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: 'f1d1980e-0dbe-49a5-97b1-b1d948e09c7c'
+    name: 'CUSTOMER_CUSTOMER_HK'
+    description: 'Timestamp of the Satellite Record'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
 dataflows:
   - id: 'd81edf44-9af7-4b94-82c7-604f1193ee69'
     name: 'Dataflow1'
@@ -55,4 +66,6 @@ dataflows:
             termId: '2c1a92ac-74ca-449f-aa89-aa5d955dd834'
           - termId: '51128d31-87a7-4251-8177-ca2e74e8f7f6'
           - termId: '9c128cca-9ff0-42e4-b447-71b8f049d1d3'
+          - expression: 'c3bb9a82-1d26-4253-b8cd-29b695172844.626d08f7-9035-4521-a701-2cd14f103105'
+            termId: 'f1d1980e-0dbe-49a5-97b1-b1d948e09c7c'
 tags: []
