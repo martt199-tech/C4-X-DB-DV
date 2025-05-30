@@ -87,6 +87,16 @@ terms:
     isNullable: true
     dataType:
       platformDataTypeId: '214f4959-56df-4f38-b8c2-703c0890e8ae'
+  - id: '4373e1ea-6bcb-4035-a821-ce4ae99e0f76'
+    name: 'modifieddate'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '214f4959-56df-4f38-b8c2-703c0890e8ae'
 dataflows:
   - id: '53c4cc19-d7fb-4166-a452-1796de258d1a'
     name: 'Dataflow1'
@@ -119,4 +129,6 @@ dataflows:
             termId: 'bd38a8ac-3676-4a90-9c03-d522a9dc7dfa'
           - expression: '9e2a56a8-84c9-43e5-8031-95dc050a7a27.e0d62efc-1d0a-4bc9-89ba-68811df87cd3'
             termId: '12cf62e8-5bc1-432f-acbe-756b31a28903'
+          - expression: '9e2a56a8-84c9-43e5-8031-95dc050a7a27.cb9fae21-a95e-48f8-951a-8006ebbe7107'
+            termId: '4373e1ea-6bcb-4035-a821-ce4ae99e0f76'
 tags: []
