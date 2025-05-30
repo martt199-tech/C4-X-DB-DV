@@ -35,6 +35,16 @@ terms:
     isNullable: true
     dataType:
       platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '6570fabc-3dd7-4a2e-a2e9-fe37ce301c97'
+    name: 'Marital_Status'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
 dataflows:
   - id: 'd81edf44-9af7-4b94-82c7-604f1193ee69'
     name: 'Dataflow1'
@@ -64,4 +74,6 @@ dataflows:
             termId: 'f1d1980e-0dbe-49a5-97b1-b1d948e09c7c'
           - expression: '873caa35-2f29-4240-9878-57a796721996.d81b441c-df66-49bf-b6ed-4167cdf39b36'
             termId: '19f3daf9-298c-4b9f-a031-f6254fff80bd'
+          - expression: '873caa35-2f29-4240-9878-57a796721996.f1807e15-7769-4a3e-b89e-85d7dde46050'
+            termId: '6570fabc-3dd7-4a2e-a2e9-fe37ce301c97'
 tags: []
