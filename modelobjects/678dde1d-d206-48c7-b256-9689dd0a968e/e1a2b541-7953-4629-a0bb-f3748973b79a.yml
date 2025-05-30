@@ -2,7 +2,19 @@ id: 'e1a2b541-7953-4629-a0bb-f3748973b79a'
 name: 'ORDER'
 isDeactivated: false
 modelObjectTypeId: '678dde1d-d206-48c7-b256-9689dd0a968e'
-terms: []
+terms:
+  - id: '4ce089ed-77c9-4c8b-bd6f-db9409cfb999'
+    name: 'totaldue'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 19
+      scale: 4
 dataflows:
   - id: 'b62f2da1-cd2c-4c0a-9270-77e916c2e776'
     name: 'Dataflow1'
@@ -21,5 +33,7 @@ dataflows:
             alias: 's1'
             joinOperatorId: 'bbdc564b-c651-4108-a2ac-1bce74acd60b'
             sourceModelObjectId: '2d1450cc-a0d5-4d73-bb2e-af370782b98e'
-        termMappings: []
+        termMappings:
+          - expression: 'c2fd2f1f-9963-4f5d-8941-4cef4e268c3c.e258e73b-3c73-4fab-a33d-2dd5e230f28d'
+            termId: '4ce089ed-77c9-4c8b-bd6f-db9409cfb999'
 tags: []
