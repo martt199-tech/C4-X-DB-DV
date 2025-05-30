@@ -67,6 +67,16 @@ terms:
     isNullable: true
     dataType:
       platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: 'bd38a8ac-3676-4a90-9c03-d522a9dc7dfa'
+    name: 'expmonth'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'c6f208b6-6dc4-4977-bed0-a7775c9ff888'
 dataflows:
   - id: '53c4cc19-d7fb-4166-a452-1796de258d1a'
     name: 'Dataflow1'
@@ -96,4 +106,6 @@ dataflows:
             termId: '0e87bc5e-4158-4083-b892-df77d8c95753'
           - expression: '9e2a56a8-84c9-43e5-8031-95dc050a7a27.fb5c2878-6de5-4dea-9801-db6b7503af20'
             termId: '9f4f5120-b689-44ee-ad37-1602baae16dd'
+          - expression: '9e2a56a8-84c9-43e5-8031-95dc050a7a27.2232ee87-49c8-490e-adf0-3ef64bbf09f0'
+            termId: 'bd38a8ac-3676-4a90-9c03-d522a9dc7dfa'
 tags: []
