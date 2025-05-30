@@ -15,6 +15,16 @@ terms:
       platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
       precision: 19
       scale: 4
+  - id: '193a85a1-7c4c-4268-ac24-5c66466897ef'
+    name: 'fromcurrencycode'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
 dataflows:
   - id: 'b62f2da1-cd2c-4c0a-9270-77e916c2e776'
     name: 'Dataflow1'
@@ -36,4 +46,6 @@ dataflows:
         termMappings:
           - expression: 'c2fd2f1f-9963-4f5d-8941-4cef4e268c3c.e258e73b-3c73-4fab-a33d-2dd5e230f28d'
             termId: '4ce089ed-77c9-4c8b-bd6f-db9409cfb999'
+          - expression: 'c2fd2f1f-9963-4f5d-8941-4cef4e268c3c.a0b51e02-1aba-46a9-b96f-f83bc20e59a3'
+            termId: '193a85a1-7c4c-4268-ac24-5c66466897ef'
 tags: []
