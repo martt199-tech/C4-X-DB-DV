@@ -1,0 +1,194 @@
+id: '1a9b98ab-91a2-49d5-8679-72b62af1c54e'
+name: 'CREDITCARD_SUPERIORCARD'
+description: 'Generated Model Object from CREDITCARD_SUPERIORCARD'
+modelObjectTypeId: '293389a4-3c32-4c71-9514-f20135c9bc08'
+terms:
+  - id: 'c2efd604-c72c-4403-aff7-6133de57f6eb'
+    name: 'BG_SourceSystem'
+    description: 'Default term with an identifier of the source system'
+    defaultTermId: 'c3654f1c-5c92-4200-82ef-baac15ffa0ba'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '7e3d3aeb-1ed9-4493-8ac0-a80c3401fd53'
+    name: 'BG_LoadTimestamp'
+    description: 'Default term with the load timestamp'
+    defaultTermId: '3fdfd83b-00b6-47e7-b139-9b25993626ac'
+    hiddenInSource: false
+    hiddenInTarget: true
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: '214f4959-56df-4f38-b8c2-703c0890e8ae'
+  - id: '4b537b47-49d4-4617-8dee-db3b38254ad4'
+    name: 'BG_ValidFromTimestamp'
+    description: 'Default term for the technical validity or objects'
+    defaultTermId: 'dae67eab-4d4c-415c-b8a2-98bc6820719d'
+    hiddenInSource: false
+    hiddenInTarget: true
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: '214f4959-56df-4f38-b8c2-703c0890e8ae'
+  - id: 'c8d99328-ee9c-4eb3-8d2d-8dcfd6377c80'
+    name: 'BG_ValidToTimestamp'
+    description: 'Default term for the technical validity or objects'
+    defaultTermId: '8a0e3b61-609b-4b0b-9a14-58a7730ed12e'
+    hiddenInSource: false
+    hiddenInTarget: true
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '214f4959-56df-4f38-b8c2-703c0890e8ae'
+  - id: 'd92a51a9-f2f0-4be4-b7d6-3c5bb8f7dbcc'
+    name: 'BG_RowHash'
+    description: 'Default term that stores the computed hash value for defined attributes'
+    defaultTermId: '2362debf-62f0-4e46-b0eb-bd221e3961eb'
+    hiddenInSource: false
+    hiddenInTarget: true
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: 'c9d3247b-f5c8-4dfb-8b9f-b5ce633e64b2'
+    name: 'CREDITCARD_SUPERIORCARD_SK'
+    description: 'Default term with mart dimension identity'
+    defaultTermId: '3d0d1df1-e8a7-45bb-abf4-63b4ecdbc2ea'
+    hiddenInSource: false
+    hiddenInTarget: true
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: true
+    isNullable: false
+    dataType:
+      platformDataTypeId: '3ea7a252-6878-4db5-9994-72fd3dae2075'
+  - id: '012b96df-4563-494b-8b0d-a3fced58824b'
+    name: 'expyear'
+    hiddenInSource: false
+    hiddenInTarget: false
+    historizationTypeId: 'cb5a80ce-e0a7-40ac-b4b8-cfa54f902e6c'
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '214f4959-56df-4f38-b8c2-703c0890e8ae'
+  - id: '2432d2b4-c434-40a5-8a1e-4daae022d90d'
+    name: 'expmonth'
+    hiddenInSource: false
+    hiddenInTarget: false
+    historizationTypeId: 'cb5a80ce-e0a7-40ac-b4b8-cfa54f902e6c'
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'c6f208b6-6dc4-4977-bed0-a7775c9ff888'
+  - id: '769d1923-78f6-4f3f-baab-3731f2f8f9f7'
+    name: 'cardnumber'
+    hiddenInSource: false
+    hiddenInTarget: false
+    historizationTypeId: 'cb5a80ce-e0a7-40ac-b4b8-cfa54f902e6c'
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '4da9648d-d0ca-40e5-bf3f-a6dcae971c82'
+    name: 'cardtype'
+    hiddenInSource: false
+    hiddenInTarget: false
+    historizationTypeId: 'cb5a80ce-e0a7-40ac-b4b8-cfa54f902e6c'
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '070201f4-bb3f-49f4-9568-888a9c8954e9'
+    name: 'BG_SourceSystem1'
+    description: 'Default term with an identifier of the source system'
+    hiddenInSource: false
+    hiddenInTarget: false
+    historizationTypeId: 'cb5a80ce-e0a7-40ac-b4b8-cfa54f902e6c'
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: 'dd0b8905-fc8e-4a50-a4d4-a920e095188c'
+    name: 'BG_LoadTimestamp1'
+    description: 'Default term with the load timestamp'
+    hiddenInSource: false
+    hiddenInTarget: false
+    historizationTypeId: 'cb5a80ce-e0a7-40ac-b4b8-cfa54f902e6c'
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: '214f4959-56df-4f38-b8c2-703c0890e8ae'
+  - id: '16ea5f94-98dd-4783-b7ff-fb738219c460'
+    name: 'BG_SourceFilePath'
+    description: 'Default term, which stores the name of theinput file'
+    hiddenInSource: false
+    hiddenInTarget: false
+    historizationTypeId: 'cb5a80ce-e0a7-40ac-b4b8-cfa54f902e6c'
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+dataflows:
+  - id: '4554822f-6096-412c-8a9d-a63b3e9a8ced'
+    name: 'Dataflow1'
+    dataflowSets:
+      - id: 'fd56ebc5-c51d-4ae2-a1bd-2b76136fdd38'
+        name: 'Set1'
+        dataflowModelObjects:
+          - id: '39c73a2a-a5ea-4171-bd66-0a5aec1e3081'
+            alias: 's1'
+            sourceModelObjectId: '342b28d7-8952-4f97-8dbb-c3c4a336b7d3'
+        termMappings:
+          - termId: 'c2efd604-c72c-4403-aff7-6133de57f6eb'
+          - termId: '7e3d3aeb-1ed9-4493-8ac0-a80c3401fd53'
+          - termId: '4b537b47-49d4-4617-8dee-db3b38254ad4'
+          - termId: 'c8d99328-ee9c-4eb3-8d2d-8dcfd6377c80'
+          - termId: 'd92a51a9-f2f0-4be4-b7d6-3c5bb8f7dbcc'
+          - termId: 'c9d3247b-f5c8-4dfb-8b9f-b5ce633e64b2'
+          - expression: '39c73a2a-a5ea-4171-bd66-0a5aec1e3081.728ed4b1-568a-4c92-8db8-16378d375ae6'
+            termId: '012b96df-4563-494b-8b0d-a3fced58824b'
+          - expression: '39c73a2a-a5ea-4171-bd66-0a5aec1e3081.6e98b717-8ca9-40c0-a937-ea706df36f22'
+            termId: '2432d2b4-c434-40a5-8a1e-4daae022d90d'
+          - expression: '39c73a2a-a5ea-4171-bd66-0a5aec1e3081.18a3caa9-1cf8-4e80-90c4-7757ee5ebfe9'
+            termId: '769d1923-78f6-4f3f-baab-3731f2f8f9f7'
+          - expression: '39c73a2a-a5ea-4171-bd66-0a5aec1e3081.aab0dce6-a806-41a4-a58e-fc252207d31d'
+            termId: '4da9648d-d0ca-40e5-bf3f-a6dcae971c82'
+          - expression: '39c73a2a-a5ea-4171-bd66-0a5aec1e3081.a35d6ec9-a4ab-4439-b59a-65f981ef98be'
+            termId: '070201f4-bb3f-49f4-9568-888a9c8954e9'
+          - expression: '39c73a2a-a5ea-4171-bd66-0a5aec1e3081.9da411c9-ce04-4203-8b57-f9332ea3a8f7'
+            termId: 'dd0b8905-fc8e-4a50-a4d4-a920e095188c'
+          - expression: '39c73a2a-a5ea-4171-bd66-0a5aec1e3081.d8431de3-3454-45ef-a345-003270e88124'
+            termId: '16ea5f94-98dd-4783-b7ff-fb738219c460'
