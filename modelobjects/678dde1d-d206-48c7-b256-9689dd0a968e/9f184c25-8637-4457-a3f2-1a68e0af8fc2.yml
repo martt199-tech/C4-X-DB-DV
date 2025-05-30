@@ -3,17 +3,6 @@ name: 'ORDERDETAIL'
 isDeactivated: false
 modelObjectTypeId: '678dde1d-d206-48c7-b256-9689dd0a968e'
 terms:
-  - id: '4500b028-0dda-4969-adfe-58194350ca01'
-    name: 'BG_ValidFromTimestamp'
-    description: 'Default term for the technical validity or objects'
-    hiddenInSource: false
-    hiddenInTarget: false
-    isBusinessKey: false
-    isForeignKey: false
-    isIdentity: false
-    isNullable: false
-    dataType:
-      platformDataTypeId: '214f4959-56df-4f38-b8c2-703c0890e8ae'
   - id: '9fb0cea7-08cc-40be-afac-e880efb72715'
     name: 'Hub_HK'
     description: 'Identifier of a record'
@@ -36,6 +25,5 @@ dataflows:
             alias: 's1'
             sourceModelObjectId: '94108f71-9533-4643-abb1-d8bb63f03f40'
         termMappings:
-          - termId: '4500b028-0dda-4969-adfe-58194350ca01'
           - termId: '9fb0cea7-08cc-40be-afac-e880efb72715'
 tags: []
