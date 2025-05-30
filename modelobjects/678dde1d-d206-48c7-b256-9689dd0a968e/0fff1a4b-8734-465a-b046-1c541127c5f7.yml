@@ -40,6 +40,7 @@ dataflows:
             joinOperatorId: 'bbdc564b-c651-4108-a2ac-1bce74acd60b'
             sourceModelObjectId: 'e6d7836f-d032-4bb5-8458-4ae79b5a7700'
         termMappings:
-          - termId: '2c1a92ac-74ca-449f-aa89-aa5d955dd834'
+          - expression: '37ab7349-ff3f-441b-a4e5-e1ed5023d96e.317e1a34-a332-42a6-9e89-4443d3387f4b'
+            termId: '2c1a92ac-74ca-449f-aa89-aa5d955dd834'
           - termId: '51128d31-87a7-4251-8177-ca2e74e8f7f6'
 tags: []
