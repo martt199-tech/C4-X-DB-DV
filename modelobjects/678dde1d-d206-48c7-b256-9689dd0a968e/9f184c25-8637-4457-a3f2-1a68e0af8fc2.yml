@@ -14,6 +14,17 @@ terms:
     isNullable: false
     dataType:
       platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '3ade38c8-6c70-47ee-8503-67ec04a73794'
+    name: 'PIT_HK'
+    description: 'Identifier of a record'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
 dataflows:
   - id: 'bb46cede-3ab2-4841-b2dd-82a5ce87c0f6'
     name: 'Dataflow1'
@@ -35,4 +46,6 @@ dataflows:
         termMappings:
           - expression: '995f7299-0a6f-4290-988d-9ef1981127bd.baf0b8a2-bdc1-45ec-ab53-deec6b5e9609'
             termId: '89407bc0-1dfc-4803-b9ec-fb763170ad05'
+          - expression: '7dcc004d-80cf-4766-9ec0-38ac5933d24c.c9fea6a9-e0f7-4edb-a0e0-b811918d22f0'
+            termId: '3ade38c8-6c70-47ee-8503-67ec04a73794'
 tags: []
