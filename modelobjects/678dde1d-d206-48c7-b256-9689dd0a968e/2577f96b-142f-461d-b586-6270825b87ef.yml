@@ -2,7 +2,18 @@ id: '2577f96b-142f-461d-b586-6270825b87ef'
 name: 'CREDITCARD'
 isDeactivated: false
 modelObjectTypeId: '678dde1d-d206-48c7-b256-9689dd0a968e'
-terms: []
+terms:
+  - id: 'a7861640-e75b-4f0d-a7e3-8ec76da70eae'
+    name: 'Hub_HK'
+    description: 'Identifier of a record'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
 dataflows:
   - id: '53c4cc19-d7fb-4166-a452-1796de258d1a'
     name: 'Dataflow1'
@@ -13,4 +24,7 @@ dataflows:
           - id: '9e2a56a8-84c9-43e5-8031-95dc050a7a27'
             alias: 's1'
             sourceModelObjectId: '65ed4e08-91d2-4c41-affd-af02515fc9eb'
+        termMappings:
+          - expression: '9e2a56a8-84c9-43e5-8031-95dc050a7a27.bc4f9967-6159-4596-b18f-245bd6cba180'
+            termId: 'a7861640-e75b-4f0d-a7e3-8ec76da70eae'
 tags: []
