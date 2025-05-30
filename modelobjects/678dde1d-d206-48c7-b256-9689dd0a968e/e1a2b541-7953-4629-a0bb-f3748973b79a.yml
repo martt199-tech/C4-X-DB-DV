@@ -91,6 +91,17 @@ terms:
     isNullable: false
     dataType:
       platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: 'de6f99ff-07f6-4d82-8f7d-af9d28282171'
+    name: 'SALESORDERHEADER_BG_ValidFromTimestamp'
+    description: 'Timestamp of the Satellite Record'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: '214f4959-56df-4f38-b8c2-703c0890e8ae'
 dataflows:
   - id: 'b62f2da1-cd2c-4c0a-9270-77e916c2e776'
     name: 'Dataflow1'
@@ -126,4 +137,6 @@ dataflows:
             termId: '716730bf-fb40-49f0-b572-6882edd81454'
           - expression: 'e04a21c4-47d1-482a-8feb-6eb2d57329d6.48530a3c-2462-450e-be93-17c691e03573'
             termId: '153e66a1-a5bd-4135-b272-eb8159286821'
+          - expression: 'e04a21c4-47d1-482a-8feb-6eb2d57329d6.5b1ba612-72b1-4445-bb80-61f72a14f5ea'
+            termId: 'de6f99ff-07f6-4d82-8f7d-af9d28282171'
 tags: []
