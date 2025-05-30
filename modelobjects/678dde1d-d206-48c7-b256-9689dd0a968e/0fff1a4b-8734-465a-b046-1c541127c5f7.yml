@@ -45,6 +45,16 @@ terms:
     isNullable: true
     dataType:
       platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '91d2a7b4-22ec-4ecf-a9b4-0e5c8d67e57a'
+    name: 'Number_Of_Children'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'c6f208b6-6dc4-4977-bed0-a7775c9ff888'
 dataflows:
   - id: 'd81edf44-9af7-4b94-82c7-604f1193ee69'
     name: 'Dataflow1'
@@ -76,4 +86,6 @@ dataflows:
             termId: '19f3daf9-298c-4b9f-a031-f6254fff80bd'
           - expression: '873caa35-2f29-4240-9878-57a796721996.f1807e15-7769-4a3e-b89e-85d7dde46050'
             termId: '6570fabc-3dd7-4a2e-a2e9-fe37ce301c97'
+          - expression: '873caa35-2f29-4240-9878-57a796721996.c3a62e26-994f-4fe9-b829-bfdfb8dc07ef'
+            termId: '91d2a7b4-22ec-4ecf-a9b4-0e5c8d67e57a'
 tags: []
