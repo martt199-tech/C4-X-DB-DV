@@ -39,6 +39,10 @@ dataflows:
             alias: 's3'
             joinOperatorId: 'bbdc564b-c651-4108-a2ac-1bce74acd60b'
             sourceModelObjectId: 'f4e16847-57c7-47c0-b61f-cdcf2faed38c'
+          - id: 'c2fd2f1f-9963-4f5d-8941-4cef4e268c3c'
+            alias: 's1'
+            joinOperatorId: 'bbdc564b-c651-4108-a2ac-1bce74acd60b'
+            sourceModelObjectId: '2d1450cc-a0d5-4d73-bb2e-af370782b98e'
         termMappings:
           - termId: '6c102f0f-057f-4696-9581-802b41c2427d'
           - termId: '94c7308a-e25e-4e84-9afb-ae9cd5ca1a40'
