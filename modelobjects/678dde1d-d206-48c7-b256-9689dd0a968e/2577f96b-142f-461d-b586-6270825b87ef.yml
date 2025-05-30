@@ -107,6 +107,17 @@ terms:
     isNullable: false
     dataType:
       platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '29800d8f-bf74-48fc-b93f-f4ca1716042c'
+    name: 'CREDITCARD_CREDITCARD_HK'
+    description: 'Timestamp of the Satellite Record'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
 dataflows:
   - id: '53c4cc19-d7fb-4166-a452-1796de258d1a'
     name: 'Dataflow1'
@@ -143,4 +154,6 @@ dataflows:
             termId: '4373e1ea-6bcb-4035-a821-ce4ae99e0f76'
           - expression: '9e2a56a8-84c9-43e5-8031-95dc050a7a27.17ca0736-324d-421f-a4a7-74608c45a554'
             termId: '83667e75-daab-499a-a524-d519517a109c'
+          - expression: '43346b9f-160a-437a-bc67-f76dc6b6375a.d38051ac-0bc1-4d32-9134-898e1fb05290'
+            termId: '29800d8f-bf74-48fc-b93f-f4ca1716042c'
 tags: []
