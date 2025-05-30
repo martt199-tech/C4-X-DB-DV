@@ -58,6 +58,17 @@ terms:
     isNullable: false
     dataType:
       platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '98c05d52-999a-476d-8509-82f0a2931468'
+    name: 'ORDER_CURRENCY_ORDER_CURRENCY_HK'
+    description: 'Timestamp of the Satellite Record'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
 dataflows:
   - id: 'b62f2da1-cd2c-4c0a-9270-77e916c2e776'
     name: 'Dataflow1'
@@ -87,4 +98,6 @@ dataflows:
             termId: 'e7f6c582-39e7-4257-a971-87c27cd4031c'
           - expression: '02c0d99a-e43f-406b-93ca-399a3bbf9f9a.77d0feeb-0397-40d7-bba8-789751705f62'
             termId: 'a0ebd25b-84c6-4caf-80f5-e69a8716ce45'
+          - expression: 'e04a21c4-47d1-482a-8feb-6eb2d57329d6.c6386ca3-6e38-4905-9106-91423a90f1be'
+            termId: '98c05d52-999a-476d-8509-82f0a2931468'
 tags: []
